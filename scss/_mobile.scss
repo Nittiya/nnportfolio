@@ -4,6 +4,9 @@
 
 // Desktop
 @include mediaLg {
+  .projects {
+    grid-template-columns: repeat(2, 2fr);
+  }
 }
 
 // tablets
@@ -57,6 +60,9 @@
       "job3";
     grid-template-columns: 1fr;
   }
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 // smart phone
@@ -64,5 +70,9 @@
   main#home h1 {
     margin-top: 10vh;
     font-size: 45px;
+  }
+
+  .projects {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
