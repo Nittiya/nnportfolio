@@ -215,6 +215,25 @@ main {
   columns: #333333;
   width: 250px; }
 
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: center;
+  margin-top: 1rem; }
+  .boxes div {
+    font-size: 2rem;
+    border: 3px white solid;
+    padding: 1.5rem 2.5rem;
+    margin-bottom: 3rem;
+    transition: all 0.5s ease-out; }
+    .boxes div:hover {
+      padding: 0.5rem 1.5rem;
+      background: #ff6600;
+      color: #000; }
+      .boxes div:hover span {
+        color: #000; }
+
 #main-footer {
   text-align: center;
   padding: 1rem;
@@ -233,6 +252,8 @@ main {
     main .lg-heading {
       line-height: 1;
       margin-bottom: 1rem; }
+  .job {
+    text-align: left; }
   ul.menu-nav,
   div.menu-branding {
     float: none;
@@ -259,5 +280,16 @@ main {
   main#home h1 {
     margin-top: 10vh;
     font-size: 45px; }
+  .job {
+    text-align: left; }
   .projects {
-    grid-template-columns: repeat(1, 1fr); } }
+    grid-template-columns: repeat(1, 1fr); }
+  #contact h1 {
+    font-size: 55px; }
+  .boxes div {
+    font-size: 20px; }
+  #phone {
+    white-space: pre; }
+  #addr {
+    white-space: pre;
+    font-size: 14px; } }
